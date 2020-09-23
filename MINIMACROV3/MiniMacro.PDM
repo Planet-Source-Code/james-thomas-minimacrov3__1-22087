@@ -1,0 +1,208 @@
+[Root]
+Most Recent Package=MiniMacro Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\SetUpMacro
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\MiniMacrov2\MiniMacro.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=No
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=No
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=No
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=No
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=No
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINDOWS\SYSTEM\MiniMacro.dll=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\MiniMacrov2\MiniMacro.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MiniMacro.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\MiniMacrov2\MiniMacro.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=MiniMacro
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=d:\SetUpMacro
+ProjectFolder=D:\MiniMacrov2
+ServerSideCab=
+File1=d:\SetUpMacro\setup.exe
+File2=d:\SetUpMacro\Setup.Lst
+File3=d:\SetUpMacro\MiniMacro.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=MiniMacro
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|MiniMacro]
+Icon1=MiniMacro.exe
+Title1=MiniMacro
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|MiniMacro Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=d:\SetUpMacro
+
+[Package|MiniMacro Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MiniMacro Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MiniMacro Setup|Files Found]
+
+[Package|MiniMacro Setup|Files Released]
+
+[Package|MiniMacro Setup|Missing Dependency Information]
+
+[Package|MiniMacro Setup|Out-of-Date Dependency Information]
+C:\WINNT\SYSTEM32\Mscomctl.ocx=
+
+[Package|MiniMacro Setup|Files Added]
+D:\MINIMACROV3\Technolord's MiniMacro.rtf=
+
+[Package|MiniMacro Setup|Files Removed]
+c:\windows\system\msvbvm60.dll=
+c:\windows\system\oleaut32.dll=
+c:\windows\system\olepro32.dll=
+c:\windows\system\asycfilt.dll=
+c:\windows\system\stdole2.tlb=
+d:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|MiniMacro Setup|Files In Project]
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\MINIMACROV3\MiniMacro.exe=Yes
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINNT\SYSTEM32\STDOLE2.TLB=Yes
+C:\WINNT\SYSTEM32\Mscomctl.ocx=Yes
+C:\WINNT\SYSTEM32\MSMASK32.OCX=Yes
+C:\WINNT\SYSTEM32\MSFLXGRD.OCX=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+D:\MINIMACROV3\Technolord's MiniMacro.rtf=Yes
+
+[Package|MiniMacro Setup|Configure Registry Files]
+Applicable=No
+
+[Package|MiniMacro Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|MiniMacro Setup|Install Locations]
+D:\MiniMacrov2\MiniMacro.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MiniMacro.dll=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\MINIMACROV3\MiniMacro.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\Mscomctl.ocx=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSMASK32.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\MINIMACROV3\Technolord's MiniMacro.rtf=$(AppPath)
+
+[Package|MiniMacro Setup|Configure Shared Files]
+Applicable=Yes
+D:\MiniMacrov2\MiniMacro.exe=No
+D:\MINIMACROV3\MiniMacro.exe=No
+D:\MINIMACROV3\Technolord's MiniMacro.rtf=No
+
+[Package|MiniMacro Setup|Distribution]
+Type=single
+Size=
+Title=MiniMacro
+
+[Package|MiniMacro Setup|IconGroups]
+Group0=MiniMacro
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|MiniMacro Setup|MiniMacro]
+Icon1=MiniMacro.exe
+Title1=MiniMacro
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MiniMacro Setup|Package]
+PackageFolder=d:\SetUpMacro
+ProjectFolder=D:\MINIMACROV3
+ServerSideCab=
+File1=d:\SetUpMacro\setup.exe
+File2=d:\SetUpMacro\Setup.Lst
+File3=d:\SetUpMacro\MiniMacro.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
